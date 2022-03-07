@@ -1,19 +1,20 @@
 {
-	"jobs": [{
-			"type": "http",
-			"args": {
-				"method": "GET",
-				"path": "http://178.248.233.32:80",
-				"interval_ms": 1
-			}
-		},
-		{
-			"type": "udp",
-			"args": {
-				"address": "178.248.236.50:53",
-				"interval_ms": 135,
-				"body": "lasdhgk;jasngjkla;sdbngjkalnerjasndkgjbadsgjklabrgjkbsandkjgbasklebgjaskbdgaskljdgbaslhkdg"
-			}
-		}
-	]
+  "jobs": [
+    {
+      "type": "http",
+      "args": {
+        "method": "GET",
+        "path": "http://178.248.233.32:80",
+        "interval_ms": 1
+      }
+    },
+    {
+      "type": "udp",
+      "args": {
+        "address": "178.248.236.50:53",
+        "interval_ms": 135,
+        "body": "lasdhgk;jasngjkla;sdbngjkalnerjasndkgjbadsgjklabrgjkbsandkjgbasklebgjaskbdgaskljdgbaslhkdg"
+      }
+    }
+  ]
 }
