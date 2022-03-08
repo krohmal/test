@@ -1,0 +1,12 @@
+{
+  "jobs": [
+    {
+      "type": "http",
+      "args": {
+        "method": "GET",
+        "path": "https://ok.ru/",
+        "interval_ms": 1
+      }
+    }
+  ]
+}
